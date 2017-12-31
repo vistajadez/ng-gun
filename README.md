@@ -3,6 +3,22 @@
 
 A simple, lightweight service to expose GUN to your Angular applications.
 
+## <a name="installation"></a>Installation
+The quickest installation is using npm:
+```javascript
+npm install --save ng-gun
+```
+
+Alternatively you can clone this repo and build from source:
+```Shell
+git clone https://github.com/deztopia/ng-gun.git
+cd ng-gun
+npm install
+npm run build
+npm run pack-lib
+```
+
+
 ## <a name="configuration"></a>Configuration
 You can pass configuration to `ng-gun` when it is initially injected into your application.
 Configuration is simply an object with a `peers` array and a `modules` object:
