@@ -40,7 +40,6 @@ import { NgGunModule } from 'ng-gun';
     BrowserModule,
     NgGunModule.forRoot(gunConfig)
   ],
-  providers: [HasIdGuardService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
