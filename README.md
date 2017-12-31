@@ -3,7 +3,7 @@
 
 A simple, lightweight service to expose GUN to your Angular applications.
 
-#<a name="configuration"></a>Configuration
+## <a name="configuration"></a>Configuration
 You can pass configuration to `ng-gun` when it is initially injected into your application.
 Configuration is simply an object with a `peers` array and a `modules` object:
 ```javascript
